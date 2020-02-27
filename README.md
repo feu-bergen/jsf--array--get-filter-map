@@ -4,6 +4,20 @@ Get beer data from Brew Dog API and display the beers that are above 5% abv.
 
 API URL: https://api.punkapi.com/v2/beers.
 
+Output HTML is in the format:
+```
+<article class="beer">
+    <h2 class="beer__name">NAME</h2>
+    <h3 class="beer__tagline">TAGLINE</h3>
+
+    <img class="beer__img" src="IMAGE URL" alt="NAME image" />
+    
+    <p class="beer__description">DESCRIPTION</p>
+
+    <div class="beer__abv">ABV%</div>
+</article>
+```
+
 **Note:** Styles are provided for you in master.css. Look in the file to find the approriate class names to use on your HTML elements.
 
 ### Example
